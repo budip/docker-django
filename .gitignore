@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django secret files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+db.sqlite3
+.env
+
+# Django static and media files
+staticfiles/
+media/
+
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+
+# Docker-related files
+*.pid
+*.tar
+docker-compose.override.yml
+
+# Python packages
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS system files
+.DS_Store
+
+# Node.js dependencies (if applicable in frontend/)
+node_modules/
+
+# Git-related files
+.git/
