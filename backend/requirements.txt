@@ -6,3 +6,4 @@ django-cors-headers
 dj-database-url
 django-environ
 requests
+djangorestframework
