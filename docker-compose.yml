@@ -27,5 +27,17 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+  frontend:
+    build:
+      context: ./frontend/vue-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend/vue-frontend:/app
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: npm run dev -- --host 0.0.0.0
+
 volumes:
   postgres_data:

@@ -7,5 +7,5 @@ router = DefaultRouter()
 router.register(r'posts', BlogPostViewSet, basename='blogpost')
 
 urlpatterns = [
-    path('', include(router.urls)),  # Include all registered routes
+    path('', include(router.urls)),
 ]
