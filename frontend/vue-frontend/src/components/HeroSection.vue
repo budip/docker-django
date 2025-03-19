@@ -5,8 +5,8 @@
         <h1>Welcome to my website</h1>
         <p>Sharing thoughts, experiences, and software engineering insights.</p>
         <div class="buttons">
-          <a href="blog.html" class="btn btn-primary">Explore the Blog</a>
-          <a href="chat.html" class="btn btn-outline-light">Try AI Chat</a>
+          <a href="blog" class="btn btn-primary">Explore the Blog</a>
+          <a href="ai-chat" class="btn btn-outline-light">Try AI Chat</a>
         </div>
       </div>
     </header>

@@ -8,6 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><router-link class="nav-link" to="/">Home</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/blog">Blog</router-link></li>            
             <li class="nav-item"><router-link class="nav-link" to="/space">Space</router-link></li>
             <li class="nav-item"><router-link class="nav-link" to="/ai-chat">AI Chat</router-link></li>
           </ul>

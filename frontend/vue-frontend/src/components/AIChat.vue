@@ -3,7 +3,7 @@
       <div class="container">
         <h2>Ask AI Anything</h2>
         <p>Need quick answers? Use the AI-powered chat for fact-checking and daily life questions.</p>
-        <a href="chat.html" class="btn btn-success btn-lg">Start Chatting</a>
+        <a href="ai-chat" class="btn btn-success btn-lg">Start Chatting</a>
       </div>
     </section>
   </template>
