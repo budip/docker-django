@@ -5,7 +5,8 @@ import AIChat from '../components/AIChat.vue';
 import Blog from '../components/Blog.vue';
 import BlogDetail from '../components/BlogDetail.vue';
 import CreateBlog from '../components/CreateBlog.vue';
-import EditBlog from '../components/EditBlog.vue'; // Import new page
+import EditBlog from '../components/EditBlog.vue';
+import About from '../components/About.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -14,7 +15,8 @@ const routes = [
   { path: '/blog', component: Blog },
   { path: '/blog/new', component: CreateBlog },
   { path: '/blog/:id', component: BlogDetail },
-  { path: '/blog/:id/edit', component: EditBlog }, // Route for editing posts
+  { path: '/blog/:id/edit', component: EditBlog },
+  { path: '/about', component: About },
 ];
 
 const router = createRouter({

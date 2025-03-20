@@ -3,7 +3,7 @@
       <div class="overlay"></div> <!-- Dimming effect only on background -->
       <div class="hero-content">
         <h1>Welcome to my website</h1>
-        <p>Sharing thoughts, experiences, and software engineering insights.</p>
+        <p>Exploring the future through technology, creativity, and discovery.</p>
         <div class="buttons">
           <a href="blog" class="btn btn-primary">Explore the Blog</a>
           <a href="ai-chat" class="btn btn-outline-light">Try AI Chat</a>

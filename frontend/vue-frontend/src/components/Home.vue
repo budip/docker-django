@@ -1,13 +1,13 @@
 <template>
     <div>
-      <HeroSection />
-      <ExploreTopics />
-      <AIChat />
+        <HeroSection />
+        <ExploreTopics />
+        <AIChat />
     </div>
-  </template>
+</template>
   
-  <script setup>
-  import HeroSection from './HeroSection.vue';
-  import ExploreTopics from './ExploreTopics.vue';
-  import AIChat from './AIChat.vue';
-  </script>
+<script setup>
+    import HeroSection from './HeroSection.vue';
+    import ExploreTopics from './ExploreTopics.vue';
+    import AIChat from './AIChat.vue';
+</script>

@@ -11,6 +11,7 @@
             <li class="nav-item"><router-link class="nav-link" to="/blog">Blog</router-link></li>            
             <li class="nav-item"><router-link class="nav-link" to="/space">Space</router-link></li>
             <li class="nav-item"><router-link class="nav-link" to="/ai-chat">AI Chat</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/about">About</router-link></li>
           </ul>
         </div>
       </div>
